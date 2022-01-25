@@ -1,11 +1,11 @@
 nav{
     background: #040c18;
     .link > a {
-        color: #fff;
+        color: rgb(232, 232, 232);
         text-decoration: none;
         font-weight: 600;
         &:hover{
-            color: #ffc107;
+          color: #ffc107;
         }
         &:active{
           color: #ffc107;
@@ -15,7 +15,7 @@ nav{
         height: 70px;
     }
     .icon_social{
-        font-size: 30px;
+        font-size: 22px;
     }
 }
 

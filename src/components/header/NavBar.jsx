@@ -1,8 +1,8 @@
-import { Nav, Navbar, Container } from 'react-bootstrap'
+import './NavBarStyle.scss'
 import { Link } from 'react-router-dom'
+import { Nav, Navbar, Container } from 'react-bootstrap'
 import Logo from '../../components/assets/img/logo-white.png'
 import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import './NavBarStyle.scss'
 
 function NavBar() {
   return (
@@ -22,7 +22,7 @@ function NavBar() {
                     <Nav.Link className='link'><Link to={'/Work'}>Work</Link> </Nav.Link>
                     <Nav.Link className='link'><Link to={'/Contact'}>Contact</Link> </Nav.Link>
                 </Nav>
-                <Nav className='socialIcon'>
+                <Nav className='social'>
                     <Nav.Link className='link icon_social'> <Link to={'/'}><FaFacebook /></Link> </Nav.Link>
                     <Nav.Link className='link icon_social'> <Link to={'/'}><FaGithub /></Link> </Nav.Link>
                     <Nav.Link className='link icon_social'> <Link to={'/'}><FaLinkedinIn /></Link> </Nav.Link>

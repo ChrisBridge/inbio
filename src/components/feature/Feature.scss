@@ -1,0 +1,22 @@
+
+.card-group{
+    margin-bottom: 100px;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+
+.card{
+    padding: 10px;
+    background: transparent!important;
+    .card-header{
+        font-size: 50px;
+        color: #fff;
+    }
+    .card-body{
+        color:#fff;
+    }
+    .card-title{
+        font-size: 2.25rem;
+    }
+}
