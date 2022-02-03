@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
-// bootstrap components
 import { Container, CardGroup, Row} from 'react-bootstrap'
-// styled
 import './styled/App.scss'
 import './styled/variables.scss'
-// components
 import Hero from './components/hero/Hero'
 import Tech from './components/tech/Tech'
 import Feature from './components/feature/Feature'
-
 import cards from './data/cards'
+import Back from './components/back/Back'
 
 
 export default class App extends Component {
@@ -17,6 +14,7 @@ export default class App extends Component {
     return (
       <>
         <Container>
+          <Back/>
           <Hero />
             <Tech />
             <hr />

@@ -7,7 +7,7 @@ import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 function NavBar() {
   return (
     <>
-        <Navbar className='nav' variant="dark" expand="lg" sticky="top">
+        <Navbar className='nav' variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand>
                     <Link to={'/'}>
