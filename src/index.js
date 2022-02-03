@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom';
+import './styled/index.scss';
+import App from './App';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/header/NavBar';
 import About from './layout/about';

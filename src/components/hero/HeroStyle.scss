@@ -5,9 +5,10 @@
         padding-top: 5rem;
         .bigTitle{
             font-weight: 200;
+            line-height: 1.1;
             letter-spacing: 6px;
             font-size: 11rem;
-            color: #ffc107;
+            color: var(--yellow);
         }
         .hero_title{
             font-size: 5.8rem;
@@ -33,7 +34,7 @@
             text-align: center;
             .bigTitle{
                 font-size: 6rem;
-                color: #ffc107;
+                color: var(--yellow);
             }
             .hero_title{
                 font-size: 4rem;

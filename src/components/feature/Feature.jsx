@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Feature.scss'
-import { Card, Col } from 'react-bootstrap'
+import { Card, Col,} from 'react-bootstrap'
 
 
 export default class Feature extends Component {
@@ -16,7 +16,6 @@ export default class Feature extends Component {
                     </Card.Body>
                 </Card> 
             </Col>
-
         </>
     )
   }
